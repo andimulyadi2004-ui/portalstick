@@ -39,3 +39,8 @@ jar {
 }
 
 jar.finalizedBy('reobfJar')
+
+repositories {
+    maven { url = 'https://maven.minecraftforge.net' }
+    mavenCentral()
+}
