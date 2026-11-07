@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+[[mods]]
+modId="portalstick"
+version="1.0.0"
+displayName="Portal Stick"
+description='''Portal ringan: tandai sudut pakai tongkat, dua portal saling terhubung, ukuran bebas.'''
+[[dependencies.portalstick]]
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.portalstick]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5,1.17)"
+ordering="NONE"
+side="BOTH"
